@@ -1,0 +1,78 @@
+body {
+    background: #000;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.player .glyphicon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.controls .glyphicon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.vertical-range{
+    height: 55px;
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+}
+
+.glyphicon-pause:before {
+    content: "\e073";
+    color: #fff;
+}
+span.glyphicon.glyphicon-fast-backward {
+    color: #fff;
+}
+span.glyphicon.glyphicon-fast-backward:hover {
+    color: #009688;
+}
+span.glyphicon.glyphicon-play {
+	color: #fff;
+}
+span.glyphicon.glyphicon-play:hover {
+  color: #009688;
+}
+
+span.glyphicon.glyphicon-fast-forward {
+	color: #fff;
+}
+span.glyphicon.glyphicon-fast-forward:hover {
+  color: #009688;
+}
+span.glyphicon.glyphicon-volume-up {
+	color: #fff;
+}
+span.glyphicon.glyphicon-volume-up:hover {
+  color: #009688;
+}
+.col-xs-1 {
+    color: white;
+}
+ul {
+    padding-left: 14px;
+}
+li {
+	list-style: none;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+   	width: 160px;
+	cursor: pointer;
+	padding: 14px;
+}
+li:hover {
+    background-color: #009688;
+}
+li:active {
+    background-color: #009688;
+}
+#player-container {
+    width: 46%;
+}
